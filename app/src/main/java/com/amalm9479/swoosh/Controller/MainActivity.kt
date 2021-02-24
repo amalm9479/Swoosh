@@ -1,12 +1,12 @@
-package com.amalm9479.swoosh
+package com.amalm9479.swoosh.Controller
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.amalm9479.swoosh.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 
-class MainActivity : BasedActivity() {
+class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
