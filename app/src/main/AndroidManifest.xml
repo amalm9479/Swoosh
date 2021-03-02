@@ -3,15 +3,14 @@
     package="com.amalm9479.swoosh">
 
     <application
+        android:icon="@mipmap/ic_launcher_foreground"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Swoosh">
-        <activity android:name=".Controller.FinishActivity"></activity>
+        <activity android:name=".Controller.FinishActivity" />
         <activity android:name=".Controller.SkillActivity" />
-        <activity android:name=".BasedActivity" />
+
         <activity android:name=".Controller.BaseActivity" />
         <activity android:name=".Controller.LeagueActivity" />
         <activity android:name=".Controller.MainActivity">
